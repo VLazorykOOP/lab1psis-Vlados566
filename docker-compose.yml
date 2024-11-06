@@ -1,0 +1,9 @@
+version: "3.8"
+
+services:
+  web:
+    image: nginx:latest
+    volumes:
+      - ./D:/Work/labu/PSIS/lab1psis-Vlados566:/usr/share/nginx/html
+    ports:
+      - "8080:80"
